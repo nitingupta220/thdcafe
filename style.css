@@ -1,0 +1,158 @@
+body, html{
+  text-align: center;
+  font-family: 'Quicksand';
+  font-size: 20px;
+/*  min-width: 860px;*/
+  text-align: center;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+input{
+  font-size: 12px;
+  font-family:'Helvetica Neue';
+  margin:30px auto;
+}
+input[type=search] {
+
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+	background: #ededed url(http://webdesignerwall.com/demo/expandable-search-form/images/search-icon.png) no-repeat 9px center;
+  border:solid 1px #ccc;
+  padding:9px 10px 9px 32px;
+  width:100px;
+  -webkit-border-radius:10em;
+  -moz-border-radius:10em;
+  border-radius:10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+input[type=search]:focus{
+  width:130px;
+  outline:0;
+  background-color:#fff;
+  border-color:#6dcff6;
+  -webkit-box-shadow:0 0 5px rgba(109,207,246,.5);
+  -moz-box-shadow:0 0 5px rgba(109,207,246,.5);
+  box-shadow:0 0 5px rgba(109,207,246,.5);
+}
+
+.container{
+  align-items: center;
+}
+.text-highlight-on {
+	background: #FF9966;
+  border-radius:3px;
+}
+
+.inner{
+  padding-left: 1em;
+  color: #707070;
+  cursor: pointer;
+}
+.proper{
+  padding-left: 11em;
+  text-align: left;
+}
+
+.toggle {
+     position: relative;
+     bottom: -1.5em;
+/*     display: block;*/
+     margin: 0 auto;
+     width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+
+}
+
+.toggleswitch-checkbox {
+    display: none;
+}
+
+.toggleswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #FF9900; border-radius: 20px;
+}
+
+.toggleswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+
+.toggleswitch-inner:before, .toggleswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 26px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+.toggleswitch-inner:before {
+    content: "Dining";
+    padding-right: 10px;
+    background-color: #FFFFFF; color: #FF9900;
+}
+
+.toggleswitch-inner:after {
+    content: "Home";
+    padding-right: 10px;
+    background-color: #FFFFFF; color: #FF9900;
+    text-align: right;
+}
+
+.toggleswitch-switch {
+    display: block; width: 25px; margin: 0px;
+    background: #FF9900;
+    border-radius: 20px;
+    position: absolute; top: 0; bottom: 0; right: 65px;
+    -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s;
+}
+
+.toggleswitch-checkbox:checked + .toggleswitch-label .toggleswitch-inner {
+    margin-left: 0;
+}
+
+.toggleswitch-checkbox:checked + .toggleswitch-label .toggleswitch-switch {
+    right: 0px;
+}
+
+.Button{
+  position: relative;
+  bottom: -3em;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.btnExample {
+   font-size: 16px;
+   height:40px;
+   width: 150px;
+   border-radius: 10px;
+   text-align: center;
+   color: white;
+   background:#FF9900;
+ }
+.btnExample:hover {
+  border-color: #F00 #C30 #C30 #F00;
+}
+
+.center {
+ text-align: center;
+}
+
+.merge-bottom-input {
+  width: 67px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.merge-top-left-button {
+  border-top-left-radius: 0;
+}
+
+.merge-top-right-button {
+  border-top-right-radius: 0;
+}
