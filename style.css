@@ -56,6 +56,12 @@ body {
     margin-bottom: 5em;
 }
 
+@media (max-width:768px) {
+    #tableDetails p {
+        text-align: center;
+    }
+}
+
 #tableDetails p {
     font-size: 30px;
     font-weight: 400;
@@ -69,6 +75,12 @@ body {
 #menu {
     margin-bottom: 5em;
     height: 600px;
+}
+
+@media (max-width:768px) {
+    #menu {
+        height: 100%;
+    }
 }
 
 #menu .heading {
@@ -89,6 +101,12 @@ body {
     margin-top: 2em;
     margin-bottom: 5em;
     text-align: center;
+}
+
+@media (max-width:768px) {
+    #menu input[type=text] {
+        width: 100%;
+    }
 }
 
 ::-webkit-input-placeholder {
