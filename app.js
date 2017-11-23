@@ -14,18 +14,20 @@ function myFunction() {
         }
     }
 }
-$('#paratha').typeIt({
-        speed: 100,
-        autoStart: false
-    })
-    .tiType('PARATHA ?')
-    .tiPause(1500)
-    .tiBreak()
-    .tiType('YES !')
-    .tiPause(1500)
-    .tiDelete(15)
-    .tiPause(1000)
-    .tiType('IDLI ?')
-    .tiPause(500)
-    .tiBreak()
-    .tiType('YES !')
+$(document).ready(function() {
+    $('#paratha').typeIt({
+            speed: 100,
+            autoStart: false
+        })
+        .tiType('PARATHA ?')
+        .tiPause(1500)
+        .tiBreak()
+        .tiType('YES !')
+        .tiPause(1500)
+        .tiDelete(15)
+        .tiPause(1000)
+        .tiType('IDLI ?')
+        .tiPause(500)
+        .tiBreak()
+        .tiType('YES !')
+})
